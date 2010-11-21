@@ -14,6 +14,8 @@ Source0: 	%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
+BuildRequires:	python-devel
+
 %description
 Why using Weboob?
 * You get information faster;
@@ -39,9 +41,11 @@ rm -rf %{buildroot}
 %doc AUTHORS README
 %{python_sitelib}/%{name}
 %{python_sitelib}/%{name}-*.egg-info
-%{_bindir}/*
-%{_datadir}/man
-%{_datadir}/icons
+%{_bindir}/*oo*
+%{_bindir}/*sex
+%{_bindir}/web*
+%{_datadir}/man/man1/*.lzma
+%{_datadir}/icons/hicolor/64x64/apps/*.png
 %{_datadir}/applications/*.desktop
 
 %changelog
