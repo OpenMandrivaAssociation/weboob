@@ -47,7 +47,7 @@ rm -rf %{buildroot}
 %{_datadir}/icons/hicolor/64x64/apps/*.png
 %{_datadir}/applications/*.desktop
 
-%if %{mdkversion} > 201001
+%if %{mdkversion} > 201010
 %{_datadir}/man/man1/*.xz
 %else
 %{_datadir}/man/man1/*.lzma
