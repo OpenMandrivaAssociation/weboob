@@ -44,7 +44,7 @@ rm -rf %{buildroot}
 %{_bindir}/*oo*
 %{_bindir}/*sex
 %{_bindir}/web*
-%{_datadir}/man/man1/*.lzma
+%{_datadir}/man/man1/*.xz
 %{_datadir}/icons/hicolor/64x64/apps/*.png
 %{_datadir}/applications/*.desktop
 
