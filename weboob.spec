@@ -14,7 +14,7 @@ Source0: 	%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
-BuildRequires:	python-setuptools
+BuildRequires:	python-setuptools python-qt4-devel
 
 %description
 Why using Weboob?
