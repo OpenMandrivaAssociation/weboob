@@ -43,9 +43,14 @@ rm -rf %{buildroot}
 %{python_sitelib}/%{name}-*.egg-info
 %{_bindir}/*oo*
 %{_bindir}/*sex
-%{_bindir}/web*
-%{_datadir}/man/man1/*.xz
+%{_bindir}/webcontentedit
 %{_datadir}/icons/hicolor/64x64/apps/*.png
 %{_datadir}/applications/*.desktop
+
+%if %{mdkversion} > 201001
+%{_datadir}/man/man1/*.xz
+%else
+%{_datadir}/man/man1/*.lzma
+%endif
 
 %changelog
