@@ -1,6 +1,6 @@
 
 %define name weboob
-%define version 0.3
+%define version 0.4
 %define release %mkrel 1
 
 Name: 		%{name}
@@ -46,11 +46,6 @@ rm -rf %{buildroot}
 %{_bindir}/webcontentedit
 %{_datadir}/icons/hicolor/64x64/apps/*.png
 %{_datadir}/applications/*.desktop
-
-%if %{mdkversion} > 201010
-%{_datadir}/man/man1/*.xz
-%else
-%{_datadir}/man/man1/*.lzma
-%endif
+%{_datadir}/man/man1/*
 
 %changelog
