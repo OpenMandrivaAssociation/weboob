@@ -1,6 +1,6 @@
 
 %define name weboob
-%define version 0.4
+%define version 0.7
 %define release %mkrel 1
 
 Name: 		%{name}
