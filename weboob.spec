@@ -44,6 +44,7 @@ rm -rf %{buildroot}
 %{_bindir}/*oo*
 %{_bindir}/*sex
 %{_bindir}/webcontentedit
+%{_bindir}/qwebcontentedit
 %{_datadir}/icons/hicolor/64x64/apps/*.png
 %{_datadir}/applications/*.desktop
 %{_datadir}/man/man1/*
