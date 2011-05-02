@@ -1,7 +1,7 @@
 
 %define name weboob
 %define version 0.7
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name: 		%{name}
 Version: 	%{version}
@@ -15,7 +15,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
 BuildRequires:	python-setuptools python-qt4-devel
-Requires: python-qt4-phonon python-yaml python-dateutil
+Requires: python-qt4-phonon python-yaml python-dateutill
 Suggests: python-html2text
 
 %description
