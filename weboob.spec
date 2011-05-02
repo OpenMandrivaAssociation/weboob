@@ -15,7 +15,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
 BuildRequires:	python-setuptools python-qt4-devel
-Requires: python-qt4-phonon python-yaml
+Requires: python-qt4-phonon python-yaml python-dateutil
 Suggests: python-html2text
 
 %description
