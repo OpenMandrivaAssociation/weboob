@@ -9,7 +9,7 @@ Release: 	%{release}
 Summary:	Weboob (Web Out Of Browsers) provides several applications to interact with a lot of websites
 Group:		Networking/Other
 License:	GPLv3
-URL:		http://weboob.org/
+URL:		https://weboob.org/
 Source0: 	%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
